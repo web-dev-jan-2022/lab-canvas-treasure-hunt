@@ -6,6 +6,8 @@
 
 You would like to implement a simple treasure hunt.
 
+You can find a demo here: https://ironhack-dev-squad-108.github.io/lab-canvas-treasure-hunt/solution-code/
+
 ## Iteration 1
 
 The goal is to reproduce the following grid.

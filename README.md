@@ -107,7 +107,7 @@ window.addEventListener('keydown', (event) => {
   event.preventDefault();
 
   // React based on the key pressed
-  switch (e.keyCode) {
+  switch (event.keyCode) {
     case 37:
       console.log('left');
       break;

@@ -39,6 +39,7 @@ You will also have to create a file `main.js` like the following one:
 // main.js
 const canvas = document.querySelector('canvas');
 const context = canvas.getContext('2d');
+
 const width = canvas.width;
 const height = canvas.height;
 

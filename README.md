@@ -1,12 +1,29 @@
 ![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
 
-# Lab | JS Canvas Treasure Hunt
+# LAB | Canvas Treasure Hunt
 
 ## Introduction
 
 In this Lab, we'll implement a simple treasure hunt game.
 
 You can find a demo for what we'll be building [here](https://ironhack-dev-squad-127.github.io/lab-canvas-treasure-hunt/solution-code/).
+
+## Requirements
+
+- Fork this repo
+- Clone this repo
+
+## Submission
+
+- Upon completion, run the following commands:
+
+  ```
+  git add .
+  git commit -m "done"
+  git push origin master
+  ```
+
+- Create Pull Request so your TAs can check up your work.
 
 ## Iteration 1: Drawing the Grid
 
@@ -93,7 +110,7 @@ You can simply rely on `images/character-down.png` for this iteration.
 - Create a class `Treasure` with a method `setRandomPosition()` and a property `col` and `row`
 - Create a function `drawTreasure()` that displays the treasure on the canvas. The picture is `images/treasure.png`
 
-## Iteration 5 React to player input
+## Iteration 5: React to player input
 
 Listen for `keydown` events to:
 
@@ -135,3 +152,5 @@ Here are some ideas:
 - Stop the player at the edges of the board.
 - Add another player that can be controlled with different keys (WASD).
 - Add a `score` property to the player and create a function `drawScores`.
+
+**Happy coding! 💙**

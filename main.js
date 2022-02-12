@@ -11,6 +11,30 @@ const size = 50
 const x = 500
 const y = 500
 
+function drawLimits() {
+    //Y axis
+    context.beginPath();
+    context.moveTo(0, 0);
+    context.lineTo(0, 500);
+    context.stroke();
+
+    context.beginPath();
+    context.moveTo(0, 500);
+    context.lineTo(500, 500);
+    context.stroke();
+
+    //X axis
+    context.beginPath();
+    context.moveTo(500, 500);
+    context.lineTo(500, 0);
+    context.stroke();
+
+    context.beginPath();
+    context.moveTo(500, 0);
+    context.lineTo(0, 0);
+    context.stroke();
+}
+
 function drawVerticalLines(position) {
     context.beginPath();
     context.moveTo(position, 0);
@@ -29,6 +53,8 @@ function drawHorizontalLines(position) {
 }
 
 function drawGrid() {
+    drawLimits()
+
     let position = size
      while (position < x) {
         drawVerticalLines(position)
